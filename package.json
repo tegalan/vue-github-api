@@ -12,7 +12,7 @@
   "dependencies": {
     "axios": "0.19.2",
     "vue": "2.6.11",
-    "vue-router": "2.3.0"
+    "vue-router": "3.1.6"
   },
   "devDependencies": {
     "autoprefixer": "9.7.6",
@@ -49,8 +49,8 @@
     "ora": "4.0.4",
     "rimraf": "3.0.2",
     "url-loader": "4.1.0",
-    "vue-loader": "11.1.4",
-    "vue-style-loader": "2.0.4",
+    "vue-loader": "15.9.2",
+    "vue-style-loader": "4.1.2",
     "vue-template-compiler": "2.6.11",
     "webpack": "4.43.0",
     "webpack-dev-middleware": "3.7.2",
