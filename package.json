@@ -12,7 +12,7 @@
   "dependencies": {
     "axios": "0.19.2",
     "vue": "2.6.11",
-    "vue-router": "3.4.0"
+    "vue-router": "3.4.1"
   },
   "devDependencies": {
     "autoprefixer": "9.8.6",
