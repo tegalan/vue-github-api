@@ -32,7 +32,7 @@
     "eslint-loader": "4.0.2",
     "eslint-plugin-html": "6.1.2",
     "eslint-config-standard": "16.0.2",
-    "eslint-plugin-promise": "5.0.0",
+    "eslint-plugin-promise": "5.1.0",
     "eslint-plugin-standard": "5.0.0",
     "eventsource-polyfill": "0.9.6",
     "express": "4.17.1",
