@@ -42,7 +42,7 @@
     "function-bind": "1.1.1",
     "html-webpack-plugin": "5.3.1",
     "http-proxy-middleware": "1.1.1",
-    "webpack-bundle-analyzer": "4.4.0",
+    "webpack-bundle-analyzer": "4.4.1",
     "semver": "7.3.5",
     "opn": "5.5.0",
     "optimize-css-assets-webpack-plugin": "5.0.4",
