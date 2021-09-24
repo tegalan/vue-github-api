@@ -3176,6 +3176,11 @@ nanocolors@^0.1.5:
   resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.1.6.tgz#bc2350d3edfdbfadd7ac018c855ae7c13905a6ad"
   integrity sha512-2pvTw6vYRaBLGir2xR7MxaJtyWkrn+C53EpW8yPotG+pdAwBvt0Xwk4VJ6VHLY0aLthVZPvDfm9TdZvrvAm5UQ==
 
+nanocolors@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.2.1.tgz#0dcc2d7952bd324b8e5ad0829d907e997acf3a97"
+  integrity sha512-2IoEVGHuRGjhAQFzbLdK38agBum4vWW4ods4b2h1FhU5SY/6B9DSLEMziQ8XzPSaitPDJtMnpXTGcGcOocDTXQ==
+
 nanoid@^3.1.23:
   version "3.1.23"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
@@ -4447,14 +4452,14 @@ webpack-bundle-analyzer@4.4.2:
     sirv "^1.0.7"
     ws "^7.3.1"
 
-webpack-dev-middleware@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-5.1.0.tgz#90a645b077e85f661c5bb967dc32adc3eceb5cfd"
-  integrity sha512-oT660AR1gOnU/NTdUQi3EiGR0iXG7CFxmKsj3ylWCBA2khJ8LFHK+sKv3BZEsC11gl1eChsltRhzUq7nWj7XIQ==
+webpack-dev-middleware@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-5.2.0.tgz#3047a66a4c4f53927c3834478054d8105b57dec5"
+  integrity sha512-akBZtC3GIdHCJ2rA4DJAIySTZRPG2T5OVB745cIetwvxWxsdTALXSrL81LjelvRM3xZQyuPKMqTlgBYd+I+z9Q==
   dependencies:
-    colorette "^1.2.2"
     memfs "^3.2.2"
     mime-types "^2.1.31"
+    nanocolors "^0.2.1"
     range-parser "^1.2.1"
     schema-utils "^3.1.0"
 
