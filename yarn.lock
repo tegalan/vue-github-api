@@ -1526,6 +1526,11 @@ colorette@^1.2.2:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
   integrity sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
 
+colorette@^2.0.10:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.10.tgz#0cc871faead8b07227c9ad784f27a0d71f3794e2"
+  integrity sha512-tQ7Prvd+zU6EUsQVXJNqxJUZdZ4btI34jlp/W1N/bNyWsY55dxe2oSg+ss3COV4vKbWLVlwLJt5xMSCuZ3R4og==
+
 commander@^2.20.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
@@ -3176,11 +3181,6 @@ nanocolors@^0.1.5:
   resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.1.6.tgz#bc2350d3edfdbfadd7ac018c855ae7c13905a6ad"
   integrity sha512-2pvTw6vYRaBLGir2xR7MxaJtyWkrn+C53EpW8yPotG+pdAwBvt0Xwk4VJ6VHLY0aLthVZPvDfm9TdZvrvAm5UQ==
 
-nanocolors@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.2.1.tgz#0dcc2d7952bd324b8e5ad0829d907e997acf3a97"
-  integrity sha512-2IoEVGHuRGjhAQFzbLdK38agBum4vWW4ods4b2h1FhU5SY/6B9DSLEMziQ8XzPSaitPDJtMnpXTGcGcOocDTXQ==
-
 nanoid@^3.1.23:
   version "3.1.23"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
@@ -4452,14 +4452,14 @@ webpack-bundle-analyzer@4.4.2:
     sirv "^1.0.7"
     ws "^7.3.1"
 
-webpack-dev-middleware@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-5.2.0.tgz#3047a66a4c4f53927c3834478054d8105b57dec5"
-  integrity sha512-akBZtC3GIdHCJ2rA4DJAIySTZRPG2T5OVB745cIetwvxWxsdTALXSrL81LjelvRM3xZQyuPKMqTlgBYd+I+z9Q==
+webpack-dev-middleware@5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-5.2.1.tgz#97c948144349177856a3d2d9c612cc3fee180cf1"
+  integrity sha512-Kx1X+36Rn9JaZcQMrJ7qN3PMAuKmEDD9ZISjUj3Cgq4A6PtwYsC4mpaKotSRYH3iOF6HsUa8viHKS59FlyVifQ==
   dependencies:
+    colorette "^2.0.10"
     memfs "^3.2.2"
     mime-types "^2.1.31"
-    nanocolors "^0.2.1"
     range-parser "^1.2.1"
     schema-utils "^3.1.0"
 
